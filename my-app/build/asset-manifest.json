@@ -1,28 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ea59a9f.css",
-    "main.js": "/static/js/main.f692abb3.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/static/css/main.d34abad1.css",
+    "main.js": "/static/js/main.bb78a71f.js",
+    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
+    "static/media/Persona.jpg": "/static/media/Persona.b910e09cf600f241bfc4.jpg",
     "static/media/Project1Main.png": "/static/media/Project1Main.80d668b52a239402ab56.png",
     "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
     "static/media/Project1Banner.png": "/static/media/Project1Banner.d14a1aec5b8faaae9067.png",
-    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
-    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/Research plan and interview script.jpg": "/static/media/Research plan and interview script.f7e7b827bdff74b26057.jpg",
+    "static/media/Research plan and interview script-2.jpg": "/static/media/Research plan and interview script-2.491dc593fea8c0fc780e.jpg",
     "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
-    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/User Journey Map.png": "/static/media/User Journey Map.2ee0f85debcf24fedf71.png",
+    "static/media/Psych_CV.pdf": "/static/media/Psych_CV.3cb2256b90180e1e0487.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/UX_Design_resume.pdf": "/static/media/UX_Design_resume.b87645d1f401df1baf46.pdf",
-    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
-    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
-    "static/media/YJ..svg": "/static/media/YJ..950c48f223278b074e6cd6ffa4803473.svg",
+    "static/media/home-main.svg": "/static/media/home-main.03eb64604b3712448b4e41c7b5760cf1.svg",
+    "static/media/Competitor Chart.png": "/static/media/Competitor Chart.64753b13da2fc13c9111.png",
+    "static/media/Idea.png": "/static/media/Idea.78577b590021b3da2d25.png",
+    "static/media/Mind Map.png": "/static/media/Mind Map.c45e6e2822e832157193.png",
+    "static/media/questionLogo.png": "/static/media/questionLogo.6b09fc4e9396f6ff4fad.png",
+    "static/media/avatar.svg": "/static/media/avatar.f2408938ddd073543f5da2c1d1a830e1.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "static/media/YJ..svg": "/static/media/YJ..7529bd215a54538f2006ceb06762afe9.svg",
     "index.html": "/index.html",
-    "main.7ea59a9f.css.map": "/static/css/main.7ea59a9f.css.map",
-    "main.f692abb3.js.map": "/static/js/main.f692abb3.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "main.d34abad1.css.map": "/static/css/main.d34abad1.css.map",
+    "main.bb78a71f.js.map": "/static/js/main.bb78a71f.js.map",
+    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ea59a9f.css",
-    "static/js/main.f692abb3.js"
+    "static/css/main.d34abad1.css",
+    "static/js/main.bb78a71f.js"
   ]
 }

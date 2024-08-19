@@ -5,6 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Particle from "../Particle";
+import { ImPointRight } from "react-icons/im";
 
 function Home2() {
   return (
@@ -16,32 +17,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with learning science and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am currently a senior at University of Wisconsin - Madison. I am
+              double majoring in Computer Science and Psychology.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My research interests are&nbsp;
               <i>
-                <b className="purple">
-                  tools to help people learn better and more efficiently{" "}
-                </b>{" "}
-                and also in areas related to <b className="purple">UX.</b>
+                <b className="purple">Human-Computer Interaction{","}</b>{" "}
+                Visualization, Learning, Decision Making and improving and
+                enhancing the design process for tools.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and React Native</b>
-              </i>
+              Apart from research, some other activites that I like to do!
+              &nbsp;
             </p>
+            <ul>
+              <li className="about-activity">
+                <ImPointRight /> Bird Watching
+              </li>
+              <li className="about-activity">
+                <ImPointRight /> 3D Modeling
+              </li>
+              <li className="about-activity">
+                <ImPointRight /> Drawing
+              </li>
+            </ul>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

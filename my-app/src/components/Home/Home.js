@@ -4,6 +4,8 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Aboutcard from "../About/AboutCard";
+import laptopImg from "../../Assets/about.png";
 
 function Home() {
   return (
@@ -21,12 +23,12 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Rainy Jin</strong>
+                <strong className="main-name"> Yuchen (Rainy) Jin</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              {/* <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-              </div>
+              </div> */}
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

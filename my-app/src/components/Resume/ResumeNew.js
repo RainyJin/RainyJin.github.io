@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../../src/Assets/UX_Design_resume.pdf";
+import pdf from "../../../src/Assets/Psych_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
