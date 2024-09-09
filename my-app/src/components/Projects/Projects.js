@@ -2,14 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import project1 from "../../Assets/Projects/Project1/Project1Banner.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import BackToTopButton from "../BackToTopButton";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
+      <BackToTopButton />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -27,7 +28,7 @@ function Projects() {
               imgPath={project1}
               isBlog={false}
               title="Rain Checker"
-              description="A responsive laboratory management website that tracks experiment progress, logs sessions and time, and streamlines communication."
+              description="A responsive laboratory management website that tracks experiment progress, logs sessions and time, and streamlines communication. This is an extensive UX Design project."
             />
           </Col>
 

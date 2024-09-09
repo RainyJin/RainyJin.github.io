@@ -1,17 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
+import homeLogo from "../../Assets/home-main.png";
+import imgAnimated from "../../Assets/home-main.gif";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Aboutcard from "../About/AboutCard";
 import laptopImg from "../../Assets/about.png";
 
 function Home() {
+  const [imgSource, setImgSource] = useState(homeLogo);
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Container className="home-content">
+        <Container className="home-content" style={{ marginTop: "-80px" }}>
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -25,18 +28,16 @@ function Home() {
                 I'M
                 <strong className="main-name"> Yuchen (Rainy) Jin</strong>
               </h1>
-
-              {/* <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div> */}
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5}>
               <img
-                src={homeLogo}
+                src={imgAnimated}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{
+                  maxHeight: "400px",
+                }}
               />
             </Col>
           </Row>

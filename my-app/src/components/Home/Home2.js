@@ -9,7 +9,12 @@ import { ImPointRight } from "react-icons/im";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container
+      fluid
+      className="home-about-section"
+      id="about"
+      style={{ marginTop: "-80px" }}
+    >
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -21,11 +26,12 @@ function Home2() {
               double majoring in Computer Science and Psychology.
               <br />
               <br />
-              My research interests are&nbsp;
+              I'm interested in &nbsp;
               <i>
                 <b className="purple">Human-Computer Interaction{","}</b>{" "}
-                Visualization, Learning, Decision Making and improving and
-                enhancing the design process for tools.
+                Visualization, Learning, design useful and usable things for
+                people and help others design things with efficiency and
+                awareness.
               </i>
               <br />
               <br />
