@@ -6,14 +6,10 @@ import bakeryLogo from "../../Assets/Projects/Project2/pancake.png";
 import persona from "../../Assets/Projects/Project2/Persona.png";
 import userJourneyMap from "../../Assets/Projects/Project2/User journey map.png";
 import wireframes from "../../Assets/Projects/Project2/All wireframes.png";
-import ideateImg from "../../Assets/Projects/Project1/Idea.png";
-import cardSortingImg from "../../Assets/Projects/Project1/Card Sorting.svg";
-import iaImg from "../../Assets/Projects/Project1/Information Architecture.svg";
-import userflowImg from "../../Assets/Projects/Project1/Sign up user flow.svg";
-import wireframeImg from "../../Assets/Projects/Project1/calendar_wireframes.jpeg";
-import lowFiImg from "../../Assets/Projects/Project1/Wireframes.png";
-import stickersheet from "../../Assets/Projects/Project1/Sticker Sheet.svg";
-import hiFiImg from "../../Assets/Projects/Project1/hiFi.gif";
+import usabilityTest from "../../Assets/Projects/Project2/Mrs.Lovett's Bakery lo-fi.jpg";
+import iteration1 from "../../Assets/Projects/Project2/Iteration1.png";
+import iteration2 from "../../Assets/Projects/Project2/Iteration2.png";
+import hiFiImg from "../../Assets/Projects/Project2/BakeryHiFi.gif";
 import iterationsImg from "../../Assets/Projects/Project1/Iterations.svg";
 import BackToTopButton from "../BackToTopButton";
 
@@ -233,122 +229,6 @@ function Project2() {
             </div>
           </Col>
         </Row>
-        <Row>
-          <Col
-            md={12}
-            className="about"
-            style={{
-              paddingTop: "20px",
-              paddingLeft: "30px",
-              textAlign: "center",
-            }}
-          >
-            <Stack>
-              <hr style={{ margin: "20px 0" }} />
-              <h3>Research Key Findings</h3>
-              <p>The consensus based on the user interviews</p>
-            </Stack>
-          </Col>
-        </Row>
-        <Row>
-          <Col
-            md={4}
-            style={{
-              paddingTop: "20px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <h4>Efficiency and Productivity</h4>
-            <p></p>
-            <ul>
-              <li>
-                <strong>Streamlined</strong> Scheduling and Task Tracking
-              </li>
-              <li>
-                <strong>Real-time</strong> Updates and Notifications
-              </li>
-              <li>
-                <strong>Ease of Use</strong>
-              </li>
-            </ul>
-          </Col>
-          <Col
-            md={4}
-            style={{
-              paddingTop: "20px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <h4>Communication and Collaboration</h4>
-            <p></p>
-            <ul>
-              <li>
-                A Single Platform for <strong>All</strong> Lab Communications
-              </li>
-              <li>
-                Support <strong>Professional Development</strong>
-              </li>
-            </ul>
-          </Col>
-          <Col
-            md={4}
-            style={{
-              paddingTop: "20px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <h4>Accuracy and Reliability</h4>
-            <p></p>
-            <ul>
-              <li>
-                Unified System for <strong>Session Sign-Ups</strong>
-              </li>
-              <li>
-                Secured Handling of <strong>Data</strong>
-              </li>
-              <li>
-                Enable <strong>Scalability</strong>
-              </li>
-            </ul>
-          </Col>
-        </Row>
-        <Row>
-          <Col
-            md={12}
-            className="ideate"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "center",
-              alignContent: "center",
-            }}
-          >
-            <Stack>
-              <img
-                src={ideateImg}
-                alt="Ideate Image"
-                className="img-fluid"
-                style={{ width: "15%", height: "15%", alignSelf: "center" }}
-              />
-              <h2>IDEATE</h2>
-              <p>Laying the foundations of the design.</p>
-              <hr style={{ margin: "20px 0" }} />
-              <div style={{ display: "flex", justifyContent: "center" }}>
-                <p style={{ marginRight: "20px", fontWeight: "bold" }}>
-                  In this section
-                </p>
-                <ol style={{ textAlign: "left", marginLeft: "15px" }}>
-                  <li>Card Sorting</li>
-                  <li>Site Map</li>
-                  <li>Brainstorming & Low-Fidelity Wireframes</li>
-                </ol>
-              </div>
-            </Stack>
-          </Col>
-        </Row>
         <Row className="justify-content-center">
           <Col
             md={8}
@@ -360,23 +240,24 @@ function Project2() {
             }}
           >
             <Stack>
-              <h3>Card Sorting</h3>
+              <h3>Usability Study</h3>
               <p></p>
               <p>
-                I conducted a hybrid card sorting activity to refine the
-                categorization and organization of features for the app.
-                Participants were provided with predefined categories and also
-                given the flexibility to create new categories.
+                I then conducted a usability study using 5 participants on the
+                low-fidelity prototype and grouped them into an affinity
+                diagram.
               </p>
               <p>
-                The card sorting involved 3 participants, a lab manager and 2
-                undergraduate RAs
+                I decided to do the testing on the gray scale low-fi prototype
+                to focus purely on the structure and core functions of the
+                interface instead of getting distracted by the color, fonts, and
+                aesthetics.{" "}
               </p>
             </Stack>
             <div className="text-center">
               <img
-                src={cardSortingImg}
-                alt="Card Sorting"
+                src={usabilityTest}
+                alt="Usability Testing"
                 className="img-fluid me-5"
                 style={{ width: "90%", height: "90%" }}
               />
@@ -394,152 +275,57 @@ function Project2() {
             }}
           >
             <Stack>
-              <h3>Information Architecture & Task Flow</h3>
+              <h3>Major Design Iterations</h3>
               <p></p>
               <p>
-                I’ve built a sitemap considering primary, secondary and tertiary
-                navigation. With the tertiary navigation being actions that
-                users can take in the specific secondary navigation.
+                I made two major modifications based on the feedback gathered
+                from the usability tests. By closely analyzing user comments, I
+                chose to implement them in a way that would enhance the user
+                experience, to make the product more intuitive and enjoyable.
               </p>
               <p>
-                I then created a task flow since it will be the main reason to
-                access the application.
+                <strong>
+                  👇 Iteration 1. Always visible “Add to Cart” button
+                </strong>
               </p>
             </Stack>
             <div className="text-center">
               <img
-                src={iaImg}
-                alt="Info Architecture"
+                src={iteration1}
+                alt="Iteration 1"
                 className="img-fluid me-5"
-                style={{ width: "50%", height: "50%" }}
-              />
-            </div>
-            <p></p>
-            <div className="text-center">
-              <img
-                src={userflowImg}
-                alt="User Flow example"
-                className="img-fluid me-5"
-                style={{ width: "50%", height: "50%" }}
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            md={8}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Wireframes and Low-Fi Prototypes</h3>
-              <p></p>
-              <p>
-                To get a clearer vision of content and information layout across
-                various pages, I started off with a few sketches that first
-                explored the overall composition of side bars and calendar. Then
-                designed the rest to match the home page.
-              </p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={wireframeImg}
-                alt="Wireframes"
-                className="img-fluid"
-                style={{ width: "60%", height: "60%" }}
+                style={{ width: "70%", height: "70%" }}
               />
             </div>
             <p></p>
             <p>
-              I intentionally starts with grey scale low-fidelity wireframes so
-              that I get a good sense of visual hierarchy and focuses on
-              functionality before integrating visual design work.
+              Users stated that the “Add to Cart” button should always be
+              visible in case they don’t want any modifications done to the
+              item. Hence, I fixed the add section to the bottom of the screen
+              and made it more apparent.
             </p>
+            <p></p>
+            <p>
+              <strong>👇 Iteration 2. Multiple ways to add an item</strong>
+            </p>
+            <p></p>
             <div className="text-center">
               <img
-                src={lowFiImg}
-                alt="Low Fidelity Prototypes"
-                className="img-fluid"
-                style={{ width: "80%", height: "80%" }}
-              />
-            </div>
-            <div className="text-center mt-3">
-              <Button
-                variant="primary"
-                href="https://www.figma.com/proto/upnLQBuTOCr6NW96Wpu1zx/Rain-Checker?node-id=7-2&node-type=CANVAS&t=8myGwTp7XJ70yJOf-1&scaling=scale-down&content-scaling=fixed&page-id=2%3A2&starting-point-node-id=7%3A2"
-                target="_blank"
-              >
-                {"View Full Low-Fi Prototype"}
-              </Button>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col
-            md={12}
-            className="Prototyping"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "center",
-              alignContent: "center",
-            }}
-          >
-            <Stack>
-              <h2>Prototyping</h2>
-              <hr style={{ margin: "20px 0" }} />
-              <div style={{ display: "flex", justifyContent: "center" }}>
-                <p style={{ marginRight: "20px", fontWeight: "bold" }}>
-                  In this section
-                </p>
-                <ol style={{ textAlign: "left", marginLeft: "15px" }}>
-                  <li>UI Design</li>
-                  <li>High-Fidelity Prototype</li>
-                  <li>Iterating on User Feedback</li>
-                </ol>
-              </div>
-            </Stack>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            md={8}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Stickersheet</h3>
-              <p></p>
-              <p>
-                With the aim of aligning branding to my school and our current
-                lab website, I crafted a visually simple design.{" "}
-                <strong>
-                  Logo, typography, color palette, buttons and cards
-                </strong>{" "}
-                are the main elements I’ve outlined at this stage.
-              </p>
-              <p>
-                Considering red was the college color, I added a alternative
-                theme of blue since red is associated with higher arousal and
-                might be provoking a sense of urgency and danger.
-              </p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={stickersheet}
-                alt="Stickersheet"
+                src={iteration2}
+                alt="Iteration 2"
                 className="img-fluid me-5"
-                style={{ width: "80%", height: "80%" }}
+                style={{ width: "70%", height: "70%" }}
               />
             </div>
+            <p></p>
+            <p>
+              In the original design, items were placed two in a row, leaving
+              little space for description. Upon user feedback, it was noted
+              that there should be ways to add items directly from the menu
+              without needing to click into each individual item since a plain
+              Croissant needs no customizations. Hence, the single item per
+              line.
+            </p>
           </Col>
         </Row>
         <Row className="justify-content-center">
@@ -553,7 +339,7 @@ function Project2() {
             }}
           >
             <Stack>
-              <h3>High-Fi Prototype</h3>
+              <h3>Final Product</h3>
               <p></p>
             </Stack>
             <div className="text-center">
@@ -561,13 +347,13 @@ function Project2() {
                 src={hiFiImg}
                 alt="High Fidelity Prototypes"
                 className="img-fluid"
-                style={{ width: "60%", height: "60%" }}
+                style={{ width: "30%", height: "30%" }}
               />
             </div>
             <div className="text-center mt-3">
               <Button
                 variant="primary"
-                href="https://www.figma.com/proto/upnLQBuTOCr6NW96Wpu1zx/Rain-Checker?node-id=78-845&node-type=CANVAS&t=bt9KxtO3ItmEe75b-1&scaling=scale-down&content-scaling=fixed&page-id=51%3A378&starting-point-node-id=78%3A845"
+                href="https://www.figma.com/proto/0lnu0BaKG9qGo4XI3Dp56H/Mrs.-Lovett's-Bakery-2nd-draft?type=design&node-id=321-362&t=jQGSvJjNA6WhTQze-1&scaling=scale-down&page-id=321%3A361&starting-point-node-id=321%3A362"
                 target="_blank"
               >
                 {"View Full Hi-Fi Prototype"}
@@ -586,48 +372,14 @@ function Project2() {
             }}
           >
             <Stack>
-              <h3>User Testing and Revisions</h3>
+              <h3>What I Learned 🌱</h3>
               <p></p>
               <p>
-                I conducted usability testing with 2 lab managers. And added a
-                few features to the prototype:{" "}
-                <ul>
-                  <li>Detailed profile</li>
-                  <li>Links in project folder</li>
-                  <li>More unified detailed calendar page</li>
-                </ul>
-              </p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={iterationsImg}
-                alt="Iterations"
-                className="img-fluid me-5"
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            md={8}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Reflections</h3>
-              <p></p>
-              <p>
-                At first, I was nervous on deciding the specific calendar format
-                to use, with our most familiar Google Calendar, Microsoft
-                Calendar being the main references. However, I was confident
-                that I know possible user needs, being a research assistant for
-                2 years and having the experience of being in different
-                projects. After all, I was crafting a solution to a problem that
-                I personally encountered. :)
+                While designing the app, I learned that I have a minimal
+                experience with interface designs so I took the time and did
+                some research into the psychology behind color and type
+                preferences that users might have. I also learned how with the
+                designs will change to benefit everyone.
               </p>
             </Stack>
           </Col>

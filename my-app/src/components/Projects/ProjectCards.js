@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgWebsite } from "react-icons/cg";
@@ -36,6 +37,20 @@ function ProjectCards(props) {
         <Card.Text style={{ marginRight: "20px" }}>
           {props.description}
         </Card.Text>
+
+        <div style={{ marginTop: "10px" }}>
+          {props.tags &&
+            props.tags.map((tag, idx) => (
+              <Badge
+                key={idx}
+                pill
+                bg="secondary" // Customize this color if needed
+                style={{ marginRight: "5px" }}
+              >
+                {tag}
+              </Badge>
+            ))}
+        </div>
         {/* <Button variant="primary" href={props.ghLink} target="_blank">
       <BsGithub /> &nbsp;
       {"GitHub"}

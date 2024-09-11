@@ -26,7 +26,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Yuchen (Rainy) Jin</strong>
+                <strong className="main-name"> Rainy Jin</strong>
               </h1>
             </Col>
 
