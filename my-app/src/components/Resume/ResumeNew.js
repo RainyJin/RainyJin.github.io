@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../../src/Assets/Psych_CV.pdf";
+import pdf from "../../../src/Assets/CV.pdf";
+import resume from "../../../src/Assets/UX_Design_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
@@ -19,6 +20,16 @@ function ResumeNew() {
   return (
     <Container fluid className="resume-section">
       <Particle />
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Button
+          variant="primary"
+          href={resume}
+          target="_blank"
+          style={{ maxWidth: "250px" }}
+        >
+          &nbsp;View Resume
+        </Button>
+      </Row>
 
       <Row className="justify-content-center my-4">
         <div
@@ -32,17 +43,6 @@ function ResumeNew() {
             <Viewer fileUrl={pdf} />
           </Worker>
         </div>
-      </Row>
-
-      <Row className="justify-content-center my-4">
-        <Button
-          variant="primary"
-          href={pdf}
-          target="_blank"
-          style={{ maxWidth: "250px" }}
-        >
-          Download CV
-        </Button>
       </Row>
     </Container>
   );

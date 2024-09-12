@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import project1 from "../../Assets/Projects/Project1/Project1Banner.png";
 import project2 from "../../Assets/Projects/Project2/Cover.png";
+import drawingsBanner from "../../Assets/Projects/Drawings/Banner.png";
 import BackToTopButton from "../BackToTopButton";
 import { Link } from "react-router-dom";
 
@@ -25,6 +26,13 @@ function Projects() {
         "A delivery app for an imaginary bakery that allows users to easily create weekly scheduled fresh, healthy dishes delivered to their doorsteps.",
       tags: ["UI/UX"],
       link: "/project2",
+    },
+    {
+      imgPath: drawingsBanner,
+      title: "Drawings and 3D Models",
+      description: "Some digital drawings and 3D models I did over the years.",
+      tags: ["Art", "Procreate", "Blender"],
+      link: "/drawings",
     }, // Add more projects here
     // Example:
     // {
@@ -59,22 +67,28 @@ function Projects() {
           style={{ marginBottom: "20px" }}
         >
           <Button
-            variant={filter === "All" ? "primary" : "outline-primary"}
+            variant={filter === "All" ? "primary" : "outline-secondary"}
             onClick={() => setFilter("All")}
           >
             All
           </Button>
           <Button
-            variant={filter === "UI/UX" ? "primary" : "outline-primary"}
+            variant={filter === "UI/UX" ? "primary" : "outline-secondary"}
             onClick={() => setFilter("UI/UX")}
           >
             UI/UX
           </Button>
           <Button
-            variant={filter === "Research" ? "primary" : "outline-primary"}
+            variant={filter === "Research" ? "primary" : "outline-secondary"}
             onClick={() => setFilter("Research")}
           >
             Research
+          </Button>
+          <Button
+            variant={filter === "Research" ? "primary" : "outline-secondary"}
+            onClick={() => setFilter("Art")}
+          >
+            Art
           </Button>
         </ButtonGroup>
 
@@ -97,7 +111,7 @@ function Projects() {
                   isBlog={false}
                   title={project.title}
                   description={project.description}
-                  tags={["UI/UX"]}
+                  tags={project.tags}
                 />
               </Link>
             </Col>
