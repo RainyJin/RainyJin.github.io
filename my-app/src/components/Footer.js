@@ -7,9 +7,9 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        {/* <Col md="4" className="footer-copywright">
           <h3>Template by Soumyajit Behera</h3>
-        </Col>
+        </Col> */}
         <Col></Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} RJ</h3>

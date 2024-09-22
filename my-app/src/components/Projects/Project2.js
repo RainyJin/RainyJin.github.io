@@ -50,9 +50,9 @@ function Project2() {
             <img src={project2main} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
-            md={4}
+            md={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -66,7 +66,7 @@ function Project2() {
             </Stack>
           </Col>
           <Col
-            md={4}
+            md={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -80,7 +80,7 @@ function Project2() {
             </Stack>
           </Col>
           <Col
-            md={4}
+            md={2}
             className="description"
             style={{
               paddingTop: "20px",
@@ -94,9 +94,9 @@ function Project2() {
             </Stack>
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
-            md={6}
+            md={8}
             className="about"
             style={{
               paddingTop: "20px",
@@ -110,15 +110,15 @@ function Project2() {
               </h3>
               <p>
                 This was a project for Google's UX Design Certificate. I decided
-                to tackle an issue that I had and still have -{" "}
+                to tackle an issue that I had and still have today -{" "}
                 <strong>WHAT DO I EAT FOR BREAKFAST?</strong>{" "}
               </p>
             </Stack>
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
-            md={7}
+            md={6}
             className="about"
             style={{
               paddingTop: "20px",

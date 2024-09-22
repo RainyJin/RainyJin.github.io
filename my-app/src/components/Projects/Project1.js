@@ -57,9 +57,9 @@ function About() {
             <img src={project1main} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
-            md={4}
+            md={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -75,7 +75,7 @@ function About() {
             </Stack>
           </Col>
           <Col
-            md={4}
+            md={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -91,7 +91,7 @@ function About() {
             </Stack>
           </Col>
           <Col
-            md={4}
+            md={2}
             className="description"
             style={{
               paddingTop: "20px",
@@ -107,7 +107,7 @@ function About() {
             </Stack>
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
             md={8}
             className="about"
@@ -133,9 +133,9 @@ function About() {
             </Stack>
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
-            md={8}
+            md={4}
             className="about"
             style={{
               paddingTop: "20px",
@@ -182,7 +182,7 @@ function About() {
             />
           </Col>
         </Row>
-        <Row>
+        <Row className="justify-content-center">
           <Col
             md={8}
             className="process"

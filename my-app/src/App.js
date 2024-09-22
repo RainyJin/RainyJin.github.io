@@ -19,6 +19,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Project2 from "./components/Projects/Project2";
 import Drawings from "./components/Projects/Drawings";
+import Project3 from "./components/Projects/Project3";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -46,6 +47,7 @@ function App() {
           <Route path="/project1" element={<Project1 />} />
           <Route path="/project2" element={<Project2 />} />
           <Route path="/drawings" element={<Drawings />} />
+          <Route path="/project3" element={<Project3 />} />
         </Routes>
         <Footer />
       </div>
