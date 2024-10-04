@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eef0885a.css",
-    "main.js": "/static/js/main.24533af6.js",
+    "main.js": "/static/js/main.12f2c6be.js",
     "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
     "static/media/10.png": "/static/media/10.0d3668615f05d600545e.png",
     "static/media/6.png": "/static/media/6.f32631633f1c1fc168a3.png",
@@ -48,7 +48,7 @@
     "static/media/User Journey Map.png": "/static/media/User Journey Map.2ee0f85debcf24fedf71.png",
     "static/media/Iteration2.png": "/static/media/Iteration2.1e73e4aee32ecae3cc7a.png",
     "static/media/Sign up user flow.svg": "/static/media/Sign up user flow.056cadecfdbb4ed78f35817f9a953e27.svg",
-    "static/media/CV.pdf": "/static/media/CV.d4e3a1c8997ef48bb451.pdf",
+    "static/media/Psych_CV.pdf": "/static/media/Psych_CV.ba5a59859b676769d47c.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/UX_Design_resume.pdf": "/static/media/UX_Design_resume.eb8a05556592a5b08c53.pdf",
     "static/media/Competitor Chart.png": "/static/media/Competitor Chart.64753b13da2fc13c9111.png",
@@ -66,11 +66,11 @@
     "static/media/YJ..svg": "/static/media/YJ..7529bd215a54538f2006ceb06762afe9.svg",
     "index.html": "/index.html",
     "main.eef0885a.css.map": "/static/css/main.eef0885a.css.map",
-    "main.24533af6.js.map": "/static/js/main.24533af6.js.map",
+    "main.12f2c6be.js.map": "/static/js/main.12f2c6be.js.map",
     "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eef0885a.css",
-    "static/js/main.24533af6.js"
+    "static/js/main.12f2c6be.js"
   ]
 }
