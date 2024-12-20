@@ -5,15 +5,11 @@ import project2main from "../../Assets/Projects/Project2/Final.png";
 import bakeryLogo from "../../Assets/Projects/Project2/pancake.png";
 import persona from "../../Assets/Projects/Project2/Persona.png";
 import userJourneyMap from "../../Assets/Projects/Project2/User journey map.png";
-import wireframes from "../../Assets/Projects/Project2/All wireframes.png";
-import usabilityTest from "../../Assets/Projects/Project2/Mrs.Lovett's Bakery lo-fi.jpg";
-import iteration1 from "../../Assets/Projects/Project2/Iteration1.png";
-import iteration2 from "../../Assets/Projects/Project2/Iteration2.png";
 import hiFiImg from "../../Assets/Projects/Project2/BakeryHiFi.gif";
 import iterationsImg from "../../Assets/Projects/Project1/Iterations.svg";
 import BackToTopButton from "../BackToTopButton";
 
-function Project2() {
+function DoubleSpeed() {
   return (
     <Container fluid className="about-section">
       <Container>
@@ -45,7 +41,7 @@ function Project2() {
                   color: "#653A13",
                 }}
               >
-                <strong>Mrs. Lovett's Bakery</strong>
+                <strong>Double Speed</strong>
               </h1>
             </Stack>
           </Col>
@@ -229,144 +225,6 @@ function Project2() {
             className="competitive analysis"
             style={{
               paddingTop: "40px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Wireframes</h3>
-              <p>
-                The process below begins with my initial ideas wireframes, then
-                moves to mockups, and finally to the high-fidelity prototype. I
-                conducted a competitive audit on popular delivery apps for Taco
-                Bell, Dunkin's and Starbucks and found a user flow that suits
-                the bakery which prioritized giving an accessible filter and
-                sort function to help users find desired items.
-              </p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={wireframes}
-                alt="Wireframes"
-                className="img-fluid"
-                style={{ width: "50%", height: "50%" }}
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            xs={12}
-            sm={10}
-            md={10}
-            lg={10}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Usability Study</h3>
-              <p></p>
-              <p>
-                I then conducted a usability study using 5 participants on the
-                low-fidelity prototype and grouped them into an affinity
-                diagram.
-              </p>
-              <p>
-                I decided to do the testing on the gray scale low-fi prototype
-                to focus purely on the structure and core functions of the
-                interface instead of getting distracted by the color, fonts, and
-                aesthetics.{" "}
-              </p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={usabilityTest}
-                alt="Usability Testing"
-                className="img-fluid me-5"
-                style={{ width: "90%", height: "90%" }}
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            xs={12}
-            sm={10}
-            md={10}
-            lg={10}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Major Design Iterations</h3>
-              <p></p>
-              <p>
-                I made two major modifications based on the feedback gathered
-                from the usability tests. By closely analyzing user comments, I
-                chose to implement them in a way that would enhance the user
-                experience, to make the product more intuitive and enjoyable.
-              </p>
-              <p>
-                <strong>
-                  👇 Iteration 1. Always visible “Add to Cart” button
-                </strong>
-              </p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={iteration1}
-                alt="Iteration 1"
-                className="img-fluid me-5"
-                style={{ width: "70%", height: "70%" }}
-              />
-            </div>
-            <p></p>
-            <p>
-              Users stated that the “Add to Cart” button should always be
-              visible in case they don’t want any modifications done to the
-              item. Hence, I fixed the add section to the bottom of the screen
-              and made it more apparent.
-            </p>
-            <p></p>
-            <p>
-              <strong>👇 Iteration 2. Multiple ways to add an item</strong>
-            </p>
-            <p></p>
-            <div className="text-center">
-              <img
-                src={iteration2}
-                alt="Iteration 2"
-                className="img-fluid me-5"
-                style={{ width: "70%", height: "70%" }}
-              />
-            </div>
-            <p></p>
-            <p>
-              In the original design, items were placed two in a row, leaving
-              little space for description. Upon user feedback, it was noted
-              that there should be ways to add items directly from the menu
-              without needing to click into each individual item since a plain
-              Croissant needs no customizations. Hence, the single item per
-              line.
-            </p>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            xs={12}
-            sm={10}
-            md={10}
-            lg={10}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
               paddingLeft: "30px",
               textAlign: "left",
             }}
@@ -421,30 +279,9 @@ function Project2() {
           </Col>
         </Row>
         <BackToTopButton />
-        <style>
-          {`
-          @keyframes rotate {
-            0%, 100% {
-              transform: rotate(0deg);
-            }
-            50% {
-              transform: rotate(15deg);
-            }
-          }
-
-          @keyframes scale {
-            0%, 100% {
-              font-size: 3em; /* Start and end size */
-            }
-            50% {
-              font-size: 3.1em; /* Size at the middle of animation */
-            }
-          }
-        `}
-        </style>
       </Container>
     </Container>
   );
 }
 
-export default Project2;
+export default DoubleSpeed;

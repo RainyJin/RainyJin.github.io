@@ -20,6 +20,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Project2 from "./components/Projects/Project2";
 import Drawings from "./components/Projects/Drawings";
 import Project3 from "./components/Projects/Project3";
+import Research from "./components/Research/Research";
+import DoubleSpeed from "./components/Research/DoubleSpeed";
+import ColorRemap from "./components/Research/ColorRemap";
+import Ender from "./components/Research/Ender";
+import Statewise from "./components/Research/Statewise";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,6 +47,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/research" element={<Research />} />
+          <Route path="/doublespeed" element={<DoubleSpeed />} />
+          <Route path="/statewise" element={<Statewise />} />
+          <Route path="/ender" element={<Ender />} />
+          <Route path="/colorremap" element={<ColorRemap />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
           <Route path="/project1" element={<Project1 />} />

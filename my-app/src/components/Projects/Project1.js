@@ -34,7 +34,10 @@ function About() {
           }}
         >
           <Col
+            xs={12}
+            sm={8}
             md={5}
+            lg={5}
             style={{
               display: "flex",
               justifyContent: "center",
@@ -53,13 +56,16 @@ function About() {
               </h1>
             </Stack>
           </Col>
-          <Col md={5} className="about-img">
+          <Col xs={12} sm={8} md={5} lg={5} className="about-img">
             <img src={project1main} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={3}
+            xs={12}
+            sm={8}
+            md={4}
+            lg={4}
             className="description"
             style={{
               paddingTop: "20px",
@@ -75,7 +81,10 @@ function About() {
             </Stack>
           </Col>
           <Col
+            xs={12}
+            sm={6}
             md={3}
+            lg={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -91,7 +100,10 @@ function About() {
             </Stack>
           </Col>
           <Col
-            md={2}
+            xs={12}
+            sm={6}
+            md={3}
+            lg={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -109,7 +121,10 @@ function About() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="about"
             style={{
               paddingTop: "20px",
@@ -135,7 +150,10 @@ function About() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={4}
+            xs={12}
+            sm={10}
+            md={5}
+            lg={5}
             className="about"
             style={{
               paddingTop: "20px",
@@ -170,7 +188,7 @@ function About() {
               </ul>
             </Stack>
           </Col>
-          <Col md={4}>
+          <Col xs={12} sm={10} md={5} lg={5}>
             <img
               src={questionLogo}
               alt="Question stickers created by inipagistudio - Flaticon"
@@ -184,7 +202,10 @@ function About() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="process"
             style={{
               paddingTop: "20px",
@@ -224,6 +245,7 @@ function About() {
               </ul>
             </Stack>
             <Stack>
+              <p></p>
               <h5>Conclusion:</h5>
               <p>
                 To address these issues, we need a comprehensive app that

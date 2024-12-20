@@ -13,7 +13,7 @@ function Home2() {
       fluid
       className="home-about-section"
       id="about"
-      style={{ marginTop: "-80px" }}
+      style={{ marginTop: "-100px" }}
     >
       <Container>
         <Row>

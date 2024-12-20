@@ -24,7 +24,10 @@ function Project3() {
           }}
         >
           <Col
-            md={4}
+            xs={12}
+            sm={8}
+            md={5}
+            lg={5}
             style={{
               display: "flex",
               justifyContent: "center",
@@ -43,13 +46,16 @@ function Project3() {
               </h1>
             </Stack>
           </Col>
-          <Col md={6} className="about-img">
+          <Col xs={12} sm={8} md={5} lg={5} className="about-img">
             <img src={project3main} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={3}
+            xs={12}
+            sm={8}
+            md={4}
+            lg={4}
             className="description"
             style={{
               paddingTop: "20px",
@@ -63,7 +69,10 @@ function Project3() {
             </Stack>
           </Col>
           <Col
+            xs={12}
+            sm={6}
             md={3}
+            lg={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -79,7 +88,10 @@ function Project3() {
             </Stack>
           </Col>
           <Col
-            md={2}
+            xs={12}
+            sm={6}
+            md={3}
+            lg={3}
             className="description"
             style={{
               paddingTop: "20px",
@@ -95,7 +107,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="about"
             style={{
               paddingTop: "20px",
@@ -117,7 +132,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={6}
+            xs={12}
+            sm={10}
+            md={8}
+            lg={8}
             className="about"
             style={{
               paddingTop: "20px",
@@ -168,7 +186,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="competitive analysis"
             style={{
               paddingTop: "40px",
@@ -191,7 +212,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
+            xs={12}
+            sm={10}
             md={5}
+            lg={5}
             className="competitive analysis"
             style={{
               paddingTop: "40px",
@@ -333,7 +357,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="competitive analysis"
             style={{
               paddingTop: "100px",
@@ -409,7 +436,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="competitive analysis"
             style={{
               paddingTop: "40px",
@@ -457,7 +487,10 @@ function Project3() {
         </Row>
         <Row className="justify-content-center">
           <Col
-            md={8}
+            xs={12}
+            sm={10}
+            md={10}
+            lg={10}
             className="competitive analysis"
             style={{
               paddingTop: "40px",

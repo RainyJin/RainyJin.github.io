@@ -267,12 +267,12 @@ button:focus {
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 2.8em !important;
   padding-left: 50px !important;
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 2.8em !important;
   padding-left: 45px !important;
 }
 
@@ -329,7 +329,7 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.4em !important;
   text-align: left;
 }
 
@@ -499,7 +499,7 @@ button:focus {
 }
 .project-heading {
   color: #373737 !important;
-  font-size: 2.3em !important;
+  font-size: 2.5em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
@@ -514,6 +514,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: #373737 !important;
+  font-size: 1.2em !important;
 }
 
 .tech-icons {

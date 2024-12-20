@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
-function ProjectCards(props) {
+function ResearchCards(props) {
   return (
     <Card
       className="project-card-view"
@@ -64,4 +64,4 @@ function ProjectCards(props) {
     </Card>
   );
 }
-export default ProjectCards;
+export default ResearchCards;
