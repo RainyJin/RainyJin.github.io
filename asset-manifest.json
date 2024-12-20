@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eef0885a.css",
-    "main.js": "/static/js/main.12f2c6be.js",
+    "main.css": "/static/css/main.0192ff0a.css",
+    "main.js": "/static/js/main.87580500.js",
     "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
     "static/media/10.png": "/static/media/10.0d3668615f05d600545e.png",
     "static/media/6.png": "/static/media/6.f32631633f1c1fc168a3.png",
@@ -23,8 +23,10 @@
     "static/media/StatewiseBanner.svg": "/static/media/StatewiseBanner.f32cb783a9159552d8beceafccce040b.svg",
     "static/media/home-main.gif": "/static/media/home-main.49e0fae0c8b187f8f7de.gif",
     "static/media/Final.png": "/static/media/Final.3c584001b86773086a0b.png",
+    "static/media/DoubleSpeedPoster.pdf": "/static/media/DoubleSpeedPoster.05767c0d61557662ca73.pdf",
     "static/media/BakeryHiFi.gif": "/static/media/BakeryHiFi.dcd6b96f48315de4d81b.gif",
     "static/media/Persona.jpg": "/static/media/Persona.b910e09cf600f241bfc4.jpg",
+    "static/media/Ender_poster.pdf": "/static/media/Ender_poster.5b6d033a05c1ea5443ef.pdf",
     "static/media/Project1Main.png": "/static/media/Project1Main.80d668b52a239402ab56.png",
     "static/media/Cover.png": "/static/media/Cover.9f667e6c6f59966731c5.png",
     "static/media/5.jpeg": "/static/media/5.c4359745efd1f7318545.jpeg",
@@ -47,8 +49,8 @@
     "static/media/9.jpeg": "/static/media/9.628680cf7f68642db5e4.jpeg",
     "static/media/User Journey Map.png": "/static/media/User Journey Map.2ee0f85debcf24fedf71.png",
     "static/media/Iteration2.png": "/static/media/Iteration2.1e73e4aee32ecae3cc7a.png",
+    "static/media/Psych_CV.pdf": "/static/media/Psych_CV.8d3e60f6f11e22adb136.pdf",
     "static/media/Sign up user flow.svg": "/static/media/Sign up user flow.056cadecfdbb4ed78f35817f9a953e27.svg",
-    "static/media/Psych_CV.pdf": "/static/media/Psych_CV.ba5a59859b676769d47c.pdf",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/UX_Design_resume.pdf": "/static/media/UX_Design_resume.eb8a05556592a5b08c53.pdf",
     "static/media/Competitor Chart.png": "/static/media/Competitor Chart.64753b13da2fc13c9111.png",
@@ -56,21 +58,25 @@
     "static/media/Wireframes.png": "/static/media/Wireframes.c0e696a06da6ac9bf6a8.png",
     "static/media/User journey map.png": "/static/media/User journey map.c4a8d00b52bc19c0ddda.png",
     "static/media/Persona.png": "/static/media/Persona.ea1189c2ac86ab573663.png",
+    "static/media/Crash_Course_logo.png": "/static/media/Crash_Course_logo.9bde8eeb1ad38baea825.png",
     "static/media/Idea.png": "/static/media/Idea.78577b590021b3da2d25.png",
-    "static/media/StatewiseLogo.png": "/static/media/StatewiseLogo.4475a6a7d68411618837.png",
+    "static/media/StatewiseLogo.png": "/static/media/StatewiseLogo.d6204d47ca6a378a90d4.png",
     "static/media/Mind Map.png": "/static/media/Mind Map.c45e6e2822e832157193.png",
+    "static/media/ColorRemapBanner.svg": "/static/media/ColorRemapBanner.d9f5243f42b9866aa0a14cc51d648f15.svg",
     "static/media/questionLogo.png": "/static/media/questionLogo.6b09fc4e9396f6ff4fad.png",
     "static/media/avatar.svg": "/static/media/avatar.f2408938ddd073543f5da2c1d1a830e1.svg",
     "static/media/pancake.png": "/static/media/pancake.9e8cb57c4409bd927fa7.png",
+    "static/media/DoubleSpeedBanner.svg": "/static/media/DoubleSpeedBanner.622fbeb861392e9abb782c004284e10f.svg",
+    "static/media/EnderBanner.svg": "/static/media/EnderBanner.9611c7d94b15796d9ac77c5399f463f6.svg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "static/media/YJ..svg": "/static/media/YJ..7529bd215a54538f2006ceb06762afe9.svg",
     "index.html": "/index.html",
-    "main.eef0885a.css.map": "/static/css/main.eef0885a.css.map",
-    "main.12f2c6be.js.map": "/static/js/main.12f2c6be.js.map",
+    "main.0192ff0a.css.map": "/static/css/main.0192ff0a.css.map",
+    "main.87580500.js.map": "/static/js/main.87580500.js.map",
     "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eef0885a.css",
-    "static/js/main.12f2c6be.js"
+    "static/css/main.0192ff0a.css",
+    "static/js/main.87580500.js"
   ]
 }
