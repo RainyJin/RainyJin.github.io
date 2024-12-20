@@ -1,12 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Stack, Button } from "react-bootstrap";
-import questionLogo from "../../Assets/Projects/Project1/questionLogo.png";
-import project2main from "../../Assets/Projects/Project2/Final.png";
-import bakeryLogo from "../../Assets/Projects/Project2/pancake.png";
-import persona from "../../Assets/Projects/Project2/Persona.png";
-import userJourneyMap from "../../Assets/Projects/Project2/User journey map.png";
-import hiFiImg from "../../Assets/Projects/Project2/BakeryHiFi.gif";
-import iterationsImg from "../../Assets/Projects/Project1/Iterations.svg";
+import ender from "../../Assets/Research/Ender/EnderBanner.svg";
+import posterpdf from "../../Assets/Research/Ender/Ender_poster.pdf";
+import { Worker, Viewer } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
 import BackToTopButton from "../BackToTopButton";
 
 function Ender() {
@@ -38,15 +35,15 @@ function Ender() {
               <h1
                 style={{
                   fontSize: "3em",
-                  color: "#653A13",
+                  color: "#9157F3",
                 }}
               >
-                <strong>Mrs. Lovett's Bakery</strong>
+                <strong>Ender</strong>
               </h1>
             </Stack>
           </Col>
           <Col xs={12} sm={8} md={5} lg={5} className="about-img">
-            <img src={project2main} alt="about" className="img-fluid" />
+            <img src={ender} alt="about" className="img-fluid" />
           </Col>
         </Row>
         <Row className="justify-content-center">
@@ -64,7 +61,9 @@ function Ender() {
           >
             <Stack>
               <h3>Project Type</h3>
-              <p style={{ textAlign: "left" }}>UX/UI, Mobile App, E-Commerce</p>
+              <p style={{ textAlign: "left" }}>
+                Learning Science, REU Project, Usability Testing
+              </p>
             </Stack>
           </Col>
           <Col
@@ -81,7 +80,7 @@ function Ender() {
           >
             <Stack>
               <h3>Tools</h3>
-              <p style={{ textAlign: "left" }}>Notion, Figma, Procreate</p>
+              <p style={{ textAlign: "left" }}>Notion, Figma, TypeScript</p>
             </Stack>
           </Col>
           <Col
@@ -98,7 +97,7 @@ function Ender() {
           >
             <Stack>
               <h3>Timeline</h3>
-              <p style={{ textAlign: "left" }}>June, 2023 - August, 2023</p>
+              <p style={{ textAlign: "left" }}>May, 2024 - Present</p>
             </Stack>
           </Col>
         </Row>
@@ -116,13 +115,19 @@ function Ender() {
             }}
           >
             <Stack>
-              <h3>
-                <strong>Project Overview</strong>
-              </h3>
+              <h3>Project Overview</h3>
               <p>
-                This was a project for Google's UX Design Certificate. I decided
-                to tackle an issue that I had and still have today -{" "}
-                <strong>WHAT DO I EAT FOR BREAKFAST?</strong>{" "}
+                This was a project for{" "}
+                <a
+                  href="https://www.cmu.edu/scs/s3d/reuse/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  REUSE
+                </a>{" "}
+                2024. <br />
+                Advised by Dr. Joshua Sunshine, Dr. Dominik Moritz and Ph.D.
+                Candidate Hwei-Shin Harriman.
               </p>
             </Stack>
           </Col>
@@ -131,8 +136,8 @@ function Ender() {
           <Col
             xs={12}
             sm={10}
-            md={8}
-            lg={8}
+            md={10}
+            lg={10}
             className="about"
             style={{
               paddingTop: "20px",
@@ -141,19 +146,27 @@ function Ender() {
             }}
           >
             <Stack>
-              <h3>
-                <strong>Process</strong>
-              </h3>
               <p>
-                After understanding the users’ needs and expectations, I
-                designed an application based on the Google problem solving
-                frameworks and created a low-fidelity prototype. I ran user
-                testing with 5 participants and incorporated the feedback to
-                refine the design. I then created a high-fidelity prototype.
+                Geometric proof is a topic that is both difficult to teach and
+                hard for students to grasp and master. Mastery is defined as the
+                ability to complete a full proof independently. To reach such a
+                level, students must gain the ability to plan and carry out a
+                multi-step path from the given information to the goal.
+                <br />
+                Some tools already exists, like dynamic geometry environments
+                (DGEs) and intelligent tutoring systems (ITS).
+                <br />
+                <br />
+                This study presents a tool to give students free access to
+                explore how steps in a geometric proof are related with
+                explanations provided at each step. We have interviewed 18
+                teachers across the U.S. to discover pedagocial needs (paper in
+                prep) and intend to conduct usability testing with geometry
+                students later on.
               </p>
             </Stack>
           </Col>
-          <Col md={2}>
+          {/* <Col md={2}>
             <img
               src={bakeryLogo}
               alt="Bakery Stickers created by rizal2109 - Flaticon"
@@ -163,9 +176,7 @@ function Ender() {
                 transformOrigin: "center",
               }}
             />
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
+          </Col> */}
           <Col
             xs={12}
             sm={10}
@@ -179,103 +190,22 @@ function Ender() {
             }}
           >
             <Stack>
-              <h3>User Persona and Journey Map</h3>
+              <h3>Poster</h3>
+              <p>Presented at the end of the REUSE program.</p>
               <p></p>
-              <p>
-                I conducted interviews with 3 friends and created empathy maps
-                to understand the possible users for a delivery app and their
-                needs which was then incorporated into user personas.
-                <br />
-                For example, our persona Jasmine is a busy PhD student who needs
-                healthy and quick breakfast delivery because she only has enough
-                time to walk her dog every morning.
-              </p>
             </Stack>
-            <div className="text-center">
-              <img
-                src={persona}
-                alt="Wireframes"
-                className="img-fluid"
-                style={{ width: "60%", height: "60%" }}
-              />
+            <div
+              style={{
+                border: "1px solid rgba(0, 0, 0, 0.3)",
+                height: "520px",
+                width: "100%",
+              }}
+            >
+              <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+                <Viewer fileUrl={posterpdf} />
+              </Worker>
             </div>
             <p></p>
-            <p>
-              I also created a user journey to better illustrate the difficulty
-              many people face when they are in the process of ordering
-              delivery. One of which is restricted access to input fields which
-              annoyed users.
-            </p>
-            <div className="text-center">
-              <img
-                src={userJourneyMap}
-                alt="Low Fidelity Prototypes"
-                className="img-fluid"
-                style={{ width: "80%", height: "80%" }}
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            xs={12}
-            sm={10}
-            md={10}
-            lg={10}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>Final Product</h3>
-              <p></p>
-            </Stack>
-            <div className="text-center">
-              <img
-                src={hiFiImg}
-                alt="High Fidelity Prototypes"
-                className="img-fluid"
-                style={{ width: "30%", height: "30%" }}
-              />
-            </div>
-            <div className="text-center mt-3">
-              <Button
-                variant="primary"
-                href="https://www.figma.com/proto/0lnu0BaKG9qGo4XI3Dp56H/Mrs.-Lovett's-Bakery-2nd-draft?type=design&node-id=321-362&t=jQGSvJjNA6WhTQze-1&scaling=scale-down&page-id=321%3A361&starting-point-node-id=321%3A362"
-                target="_blank"
-              >
-                {"View Full Hi-Fi Prototype"}
-              </Button>
-            </div>
-          </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col
-            xs={12}
-            sm={10}
-            md={10}
-            lg={10}
-            className="competitive analysis"
-            style={{
-              paddingTop: "40px",
-              paddingLeft: "30px",
-              textAlign: "left",
-            }}
-          >
-            <Stack>
-              <h3>What I Learned 🌱</h3>
-              <p></p>
-              <p>
-                While designing the app, I learned that I have a minimal
-                experience with interface designs so I took the time and did
-                some research into the psychology behind color and type
-                preferences that users might have. I also learned how with the
-                designs will change to benefit everyone.
-              </p>
-            </Stack>
           </Col>
         </Row>
         <BackToTopButton />

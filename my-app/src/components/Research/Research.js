@@ -5,8 +5,6 @@ import Particle from "../Particle";
 import colorremap from "../../Assets/Research/ColorRemap/ColorRemapBanner.svg";
 import doublespeed from "../../Assets/Research/DoubleSpeed/DoubleSpeedBanner.svg";
 import ender from "../../Assets/Research/Ender/EnderBanner.svg";
-import project1 from "../../Assets/Projects/Project1/Project1Banner.png";
-import project2 from "../../Assets/Projects/Project2/Cover.png";
 import project3 from "../../Assets/Projects/Project3/StatewiseBanner.svg";
 import BackToTopButton from "../BackToTopButton";
 import { Link } from "react-router-dom";
