@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0192ff0a.css",
-    "main.js": "/static/js/main.87580500.js",
+    "main.js": "/static/js/main.0365dc7c.js",
     "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
     "static/media/10.png": "/static/media/10.0d3668615f05d600545e.png",
     "static/media/6.png": "/static/media/6.f32631633f1c1fc168a3.png",
@@ -25,6 +25,7 @@
     "static/media/Final.png": "/static/media/Final.3c584001b86773086a0b.png",
     "static/media/DoubleSpeedPoster.pdf": "/static/media/DoubleSpeedPoster.05767c0d61557662ca73.pdf",
     "static/media/BakeryHiFi.gif": "/static/media/BakeryHiFi.dcd6b96f48315de4d81b.gif",
+    "static/media/todolist_1.png": "/static/media/todolist_1.51ac3ec8c038fc45eed4.png",
     "static/media/Persona.jpg": "/static/media/Persona.b910e09cf600f241bfc4.jpg",
     "static/media/Ender_poster.pdf": "/static/media/Ender_poster.5b6d033a05c1ea5443ef.pdf",
     "static/media/Project1Main.png": "/static/media/Project1Main.80d668b52a239402ab56.png",
@@ -36,6 +37,7 @@
     "static/media/Mrs.Lovett's Bakery lo-fi.jpg": "/static/media/Mrs.Lovett's Bakery lo-fi.f9d0d2924871e90780d3.jpg",
     "static/media/HiFi1.svg": "/static/media/HiFi1.6e808ec85c01991e5820e7262d8020d1.svg",
     "static/media/HiFi2.svg": "/static/media/HiFi2.d15ac3c46e45e55b509be2b2ac7fe401.svg",
+    "static/media/YouTube Thumbnail.jpg": "/static/media/YouTube Thumbnail.3ff30d1d0008154ce95e.jpg",
     "static/media/calendar_wireframes.jpeg": "/static/media/calendar_wireframes.23724f38e69da1f0db25.jpeg",
     "static/media/4.jpeg": "/static/media/4.f51dea11ce3c77058a38.jpeg",
     "static/media/Information Architecture.svg": "/static/media/Information Architecture.af7e0c42c4dee0bcad0c65f7a5e555c6.svg",
@@ -47,19 +49,25 @@
     "static/media/Card Sorting.svg": "/static/media/Card Sorting.ec748fc60a7aa89f5e4f99fb5b21c8ec.svg",
     "static/media/Research plan and interview script-2.jpg": "/static/media/Research plan and interview script-2.491dc593fea8c0fc780e.jpg",
     "static/media/9.jpeg": "/static/media/9.628680cf7f68642db5e4.jpeg",
+    "static/media/Hi Fi.png": "/static/media/Hi Fi.52b3f079ef4d2d0aba5e.png",
     "static/media/User Journey Map.png": "/static/media/User Journey Map.2ee0f85debcf24fedf71.png",
     "static/media/Iteration2.png": "/static/media/Iteration2.1e73e4aee32ecae3cc7a.png",
     "static/media/Psych_CV.pdf": "/static/media/Psych_CV.8d3e60f6f11e22adb136.pdf",
+    "static/media/health_tracker.png": "/static/media/health_tracker.2e73aec9034f5555ca0e.png",
     "static/media/Sign up user flow.svg": "/static/media/Sign up user flow.056cadecfdbb4ed78f35817f9a953e27.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/todolist_edit.png": "/static/media/todolist_edit.bf14b00629158e0cb790.png",
     "static/media/UX_Design_resume.pdf": "/static/media/UX_Design_resume.eb8a05556592a5b08c53.pdf",
     "static/media/Competitor Chart.png": "/static/media/Competitor Chart.64753b13da2fc13c9111.png",
+    "static/media/calendar.png": "/static/media/calendar.c0afce0145d0aac0b7c4.png",
     "static/media/All wireframes.png": "/static/media/All wireframes.45bd3ce8cb553436b1eb.png",
+    "static/media/Lo Fi.png": "/static/media/Lo Fi.d8443323319e38235fe5.png",
     "static/media/Wireframes.png": "/static/media/Wireframes.c0e696a06da6ac9bf6a8.png",
     "static/media/User journey map.png": "/static/media/User journey map.c4a8d00b52bc19c0ddda.png",
     "static/media/Persona.png": "/static/media/Persona.ea1189c2ac86ab573663.png",
     "static/media/Crash_Course_logo.png": "/static/media/Crash_Course_logo.9bde8eeb1ad38baea825.png",
     "static/media/Idea.png": "/static/media/Idea.78577b590021b3da2d25.png",
+    "static/media/cardinal.png": "/static/media/cardinal.b34b77d74d6898765819.png",
     "static/media/StatewiseLogo.png": "/static/media/StatewiseLogo.d6204d47ca6a378a90d4.png",
     "static/media/Mind Map.png": "/static/media/Mind Map.c45e6e2822e832157193.png",
     "static/media/ColorRemapBanner.svg": "/static/media/ColorRemapBanner.d9f5243f42b9866aa0a14cc51d648f15.svg",
@@ -72,11 +80,11 @@
     "static/media/YJ..svg": "/static/media/YJ..7529bd215a54538f2006ceb06762afe9.svg",
     "index.html": "/index.html",
     "main.0192ff0a.css.map": "/static/css/main.0192ff0a.css.map",
-    "main.87580500.js.map": "/static/js/main.87580500.js.map",
+    "main.0365dc7c.js.map": "/static/js/main.0365dc7c.js.map",
     "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0192ff0a.css",
-    "static/js/main.87580500.js"
+    "static/js/main.0365dc7c.js"
   ]
 }
