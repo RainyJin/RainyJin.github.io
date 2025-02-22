@@ -25,6 +25,7 @@ import DoubleSpeed from "./components/Research/DoubleSpeed";
 import ColorRemap from "./components/Research/ColorRemap";
 import Ender from "./components/Research/Ender";
 import Statewise from "./components/Research/Statewise";
+import Project4 from "./components/Projects/Project4";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -58,6 +59,7 @@ function App() {
           <Route path="/project2" element={<Project2 />} />
           <Route path="/drawings" element={<Drawings />} />
           <Route path="/project3" element={<Project3 />} />
+          <Route path="/project4" element={<Project4 />} />
         </Routes>
         <Footer />
       </div>

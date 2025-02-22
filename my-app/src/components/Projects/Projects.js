@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import project1 from "../../Assets/Projects/Project1/Project1Banner.png";
 import project2 from "../../Assets/Projects/Project2/Cover.png";
 import project3 from "../../Assets/Projects/Project3/StatewiseBanner.svg";
+import project4 from "../../Assets/Projects/Project4/YouTube Thumbnail.jpg";
 import drawingsBanner from "../../Assets/Projects/Drawings/Banner.png";
 import BackToTopButton from "../BackToTopButton";
 import { Link } from "react-router-dom";
@@ -13,11 +14,19 @@ function Projects() {
   const [filter, setFilter] = useState("All");
   const projects = [
     {
+      imgPath: project4,
+      title: "Well Nest",
+      description:
+        "A self care app related to academics planning and physical health such as sleep, eating habits and exercising.",
+      tags: ["UI/UX"],
+      link: "/project4",
+    },
+    {
       imgPath: project3,
       title: "Statewise",
       description:
         "A visual editor designed to enable developers to model and simulate complex systems using colored Petri nets in an intuitive, graphical way.",
-      tags: ["Research", "UI/UX"],
+      tags: ["UI/UX"],
       link: "/project3",
     },
     {
@@ -87,12 +96,6 @@ function Projects() {
             onClick={() => setFilter("UI/UX")}
           >
             UI/UX
-          </Button>
-          <Button
-            variant={filter === "Research" ? "primary" : "outline-secondary"}
-            onClick={() => setFilter("Research")}
-          >
-            Research
           </Button>
           <Button
             variant={filter === "Art" ? "primary" : "outline-secondary"}
